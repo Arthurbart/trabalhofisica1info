@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacao com Formularios </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalho de fisica! <p>Movimento vertical de queda livre.</p></h1>
+    </header>
+    <section>
+        <p>Formula para descobrir a velocidade do movel antes dele chegar a zero:<p>Insira o tempo que levou para o movel chegar ao chao:</p></p>(segundos)</p>
+        <form action="cad.php" method="get">
+            <label for="Tempo">Tempo </label>
+            <input type="text" name="Tempo" id="idtempo">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section>
+        <p>Formula para descobrir a posicao na qual o movel comecou a cair:</p><p> Insira o tempo que levou para o movel chegar ao chao:</p></p>(segundos)</p>
+        <form action="DeltaS.php" method="get">
+            <label for="Tempo">Tempo </label>
+            <input type="text" name="Tempo" id="idtempo">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
